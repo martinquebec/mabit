@@ -6,20 +6,20 @@ import java.util.Map;
 import mabit.oms.exchange.IExchangeInterface;
 
 public class Oms {
-	final Map<Integer,Order> liveOrder;
-	final Map<Integer,Order> closeOrder;
+	final Map<Long,Order> liveOrder;
+	final Map<Long,Order> closeOrder;
 	IExchangeInterface exchange;
-	private static int id=0;
+	private static Long id=0l;
 	
 	public Oms(IExchangeInterface exchange) {
 		this.exchange = exchange;
-		liveOrder = new IdentityHashMap<Integer, Order>();
-		closeOrder = new IdentityHashMap<Integer, Order>();
+		liveOrder = new IdentityHashMap<Long, Order>();
+		closeOrder = new IdentityHashMap<Long, Order>();
 	}
 	
 	public void sendOrder(OrderRequest requestOrder) {
 		exchange.send(requestOrder);
-		Order order = new Order(requestOrder, id++, OrderState.PENDING);
+		Order order = new Order(requestOrder, id++, OrderState.PENDING_NEW);
 		liveOrder.put(order.getOrderId(), order);
 	}
 	

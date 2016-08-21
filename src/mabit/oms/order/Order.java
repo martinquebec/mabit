@@ -1,26 +1,29 @@
 package mabit.oms.order;
 
+import java.util.LinkedList;
 import java.util.List;
 
+import mabit.oms.exchange.ExchangeName;
+
 public class Order {
-	int orderId;
+	Long orderId;
 	OrderState state;
 	double execQty;
-	List<Exec> exec;
-	OrderRequest request;
+	final List<Exec> exec;
+	final OrderRequest request;
 	
-	public Order(OrderRequest request, int orderId, OrderState state) {
+	public Order(OrderRequest request, Long orderId, OrderState state) {
 		this.request = request;
 		this.orderId = orderId;
 		this.state = state;
-		
+		exec = new LinkedList<>();
 	}
 
-	public int getOrderId() {
+	public Long getOrderId() {
 		return orderId;
 	}
 
-	public void setOrderId(int orderId) {
+	public void setOrderId(Long orderId) {
 		this.orderId = orderId;
 	}
 
@@ -36,33 +39,35 @@ public class Order {
 		return execQty;
 	}
 
-	public void setExecQty(double execQty) {
-		this.execQty = execQty;
-	}
-
 	public List<Exec> getExec() {
 		return exec;
 	}
 
-	public void setExec(List<Exec> exec) {
-		this.exec = exec;
-	}
-
 	public OrderRequest getRequest() {
 		return request;
-	}
-
-	public void setRequest(OrderRequest request) {
-		this.request = request;
-	}
-	
-	public Side getSide() {
-		return request.getSide();
 	}
 	
 	public double getPendingQty() {
 		return request.getQty() - getExecQty();
 	}
 	
-	
+
+	public IInstrument getIntrument() {
+		return request.getIntrument();
+	}
+	public Side getSide() {
+		return request.getSide();
+	}
+	public Label getLabel() {
+		return request.getLabel();
+	}
+	public ExchangeName getExchange() {
+		return request.getExchange();
+	}
+	public double getQty() {
+		return request.getQty();
+	}
+	public double getPrice() {
+		return request.getPrice();
+	}
 }

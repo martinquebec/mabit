@@ -26,7 +26,13 @@ public class Dispatcher {
 		}
 		listeners.add(listener);
 		listeners.sort((l1,l2) -> {return l1.getPriority().compareTo(l2.getPriority()); });
-		
+	}
+	
+	public void unregister(EventType type, IEventListener listener) {
+		List<IEventListener> listeners = listenersByTypes.get(type);	
+		if(listeners !=null && listeners.size() >0) {
+			listeners.remove(listener);
+		}
 	}
 	
 	public void post(IEvent event) {
