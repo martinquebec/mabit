@@ -1,4 +1,4 @@
-package mabit.exchange;
+package mabit.oms.exchange;
 
 public enum ExchangeName {
 	Betfair

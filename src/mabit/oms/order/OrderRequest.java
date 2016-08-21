@@ -2,7 +2,7 @@ package mabit.oms.order;
 
 import java.util.List;
 
-import mabit.exchange.ExchangeName;
+import mabit.oms.exchange.ExchangeName;
 
 public class OrderRequest {
 	IInstrument intrument;
@@ -22,4 +22,24 @@ public class OrderRequest {
 		this.qty = qty;
 		this.price = price;
 	}
+	public IInstrument getIntrument() {
+		return intrument;
+	}
+	public Side getSide() {
+		return side;
+	}
+	public Label getLabel() {
+		return label;
+	}
+	public ExchangeName getExchange() {
+		return exchange;
+	}
+	public double getQty() {
+		return qty;
+	}
+	public double getPrice() {
+		return price;
+	}
+	
+	
 }
