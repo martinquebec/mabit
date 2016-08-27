@@ -1,8 +1,10 @@
 package mabit.dispatcher;
 
+import org.joda.time.DateTime;
+
 public interface IEvent {
 	
-	int getDateTime();
+	DateTime getDateTime();
 	EventType getEventType();
 	
 

@@ -3,6 +3,7 @@ package mabit.oms.order;
 import java.util.IdentityHashMap;
 import java.util.Map;
 
+import mabit.exchange.OrderUpdate;
 import mabit.oms.exchange.IExchangeInterface;
 
 public class Oms {
@@ -18,9 +19,14 @@ public class Oms {
 	}
 	
 	public void sendOrder(OrderRequest requestOrder) {
-		exchange.send(requestOrder);
 		Order order = new Order(requestOrder, id++, OrderState.PENDING_NEW);
+		exchange.send(order);
 		liveOrder.put(order.getOrderId(), order);
+	}
+	
+	public void onOrderUpdate(OrderUpdate update) {
+		
+		
 	}
 	
 

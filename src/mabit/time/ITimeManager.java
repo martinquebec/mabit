@@ -3,6 +3,8 @@ package mabit.time;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
+import org.joda.time.DateTime;
+
 public interface ITimeManager {
 
 	public DateTime getTime();
