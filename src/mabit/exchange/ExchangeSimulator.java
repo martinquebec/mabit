@@ -8,7 +8,10 @@ import com.google.common.collect.LinkedListMultimap;
 import com.google.common.collect.Multimap;
 import com.google.common.eventbus.EventBus;
 
+import mabit.dispatcher.Event.QuoteEvent;
+import mabit.dispatcher.Event.TradeEvent;
 import mabit.dispatcher.IEvent;
+import mabit.dispatcher.IEventListener;
 import mabit.exchange.OrderUpdate.RequestResult;
 import mabit.marketdata.MarketDataService;
 import mabit.marketdata.Quote;
@@ -20,7 +23,7 @@ import mabit.oms.order.Order;
 import mabit.oms.order.OrderState;
 import mabit.time.ITimeManager;
 
-public class ExchangeSimulator implements IExchangeInterface {
+public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 	Map<Long,SimOrder> orderMap = new HashMap<>();
 	
 	Multimap<IInstrument, SimOrder> instrumentMap = LinkedListMultimap.create();
@@ -89,10 +92,15 @@ public class ExchangeSimulator implements IExchangeInterface {
 	}
 	
 
+	@Override
 	public void onEvent(IEvent event) {
-	
+		switch(event.getEventType()) {
+			case QUOTE:	onQuote(((QuoteEvent)event).getPayLoad()); break;	
+			case TRADE:	onTrade(((TradeEvent)event).getPayLoad()); break;	
+		}
 	}
 	public void onQuote(Quote quote) {
+//		for(SimOrder order : )
 		
 	}
 	public void onTrade(Trade trade) {
@@ -106,6 +114,10 @@ public class ExchangeSimulator implements IExchangeInterface {
 		} else {
 			//TODO: throw error
 		}
+	}
+	@Override
+	public Priority getPriority() {
+		return Priority.HIGH;
 	}
 
 }
