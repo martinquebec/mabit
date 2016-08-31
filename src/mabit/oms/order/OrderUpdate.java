@@ -1,13 +1,9 @@
-package mabit.exchange;
+package mabit.oms.order;
 
 
 import java.util.List;
 
 import org.joda.time.DateTime;
-
-import mabit.oms.order.Exec;
-import mabit.oms.order.Order;
-import mabit.oms.order.OrderState;
 
 public class OrderUpdate  {
 	public enum RequestResult { SUCCESS, FAILLURE }

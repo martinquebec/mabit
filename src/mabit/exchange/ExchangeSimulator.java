@@ -2,9 +2,11 @@ package mabit.exchange;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import com.google.common.collect.LinkedListMultimap;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
 import com.google.common.eventbus.EventBus;
 
@@ -12,15 +14,16 @@ import mabit.dispatcher.Event.QuoteEvent;
 import mabit.dispatcher.Event.TradeEvent;
 import mabit.dispatcher.IEvent;
 import mabit.dispatcher.IEventListener;
-import mabit.exchange.OrderUpdate.RequestResult;
+import mabit.exchange.ExchangeUpdate.Listener;
 import mabit.marketdata.MarketDataService;
 import mabit.marketdata.Quote;
 import mabit.marketdata.Trade;
 import mabit.oms.order.Exec;
 import mabit.oms.order.IInstrument;
-import mabit.oms.order.Oms;
 import mabit.oms.order.Order;
 import mabit.oms.order.OrderState;
+import mabit.oms.order.OrderUpdate;
+import mabit.oms.order.OrderUpdate.RequestResult;
 import mabit.time.ITimeManager;
 
 public class ExchangeSimulator implements IExchangeInterface, IEventListener {
@@ -28,13 +31,13 @@ public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 	
 	Multimap<IInstrument, SimOrder> instrumentMap = LinkedListMultimap.create();
 	MarketDataService mds;
-	Oms oms;
+	List<ExchangeUpdate.Listener> updateListeners = Lists.newArrayList();
 	ITimeManager tm;
-
 	
 	public void ExchangeSimulator(EventBus bus) {
-		// TODO Auto-generated constructor stub
+		bus.register(this);
 	}
+	 
 	@Override
 	public void send(Order order) {
 		Quote quote = mds.getLastQuote(order.getIntrument());
@@ -52,25 +55,30 @@ public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 	}
 	
 	private void sendOrderUpdate(SimOrder simo, String msg, Exec exec) {
-		oms.onOrderUpdate(
-				new OrderUpdate(
+		ExchangeUpdate update= new ExchangeUpdate(
 						simo.getOrder().getOrderId(),
-						msg,
 						RequestResult.SUCCESS,
 						simo.getOrdStatus(),
 						(exec!=null)?Arrays.asList(exec):null,
-						tm.getTime()));
+						msg,
+						tm.getTime());
+		for(ExchangeUpdate.Listener l : this.updateListeners) {
+			l.onExchangeUpdate(update);
+		}
+
 	}
 		
 	private void sendMessageReject(Long orderId, OrderState orderState, String msg) {
-		oms.onOrderUpdate(
-			new OrderUpdate(
+		ExchangeUpdate update = new ExchangeUpdate(
 				orderId,
-				msg,
 				RequestResult.FAILLURE,
 				orderState,
 				null,
-				tm.getTime()));
+				msg,
+				tm.getTime());
+		for(ExchangeUpdate.Listener l : this.updateListeners) {
+			l.onExchangeUpdate(update);
+		}
 				
 	}
 
@@ -118,6 +126,13 @@ public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 	@Override
 	public Priority getPriority() {
 		return Priority.HIGH;
+	}
+
+
+	@Override
+	public void register(Listener listener) {
+		this.updateListeners.add(listener);
+		
 	}
 
 }

@@ -2,10 +2,10 @@ package mabit.dispatcher;
 
 import org.joda.time.DateTime;
 
-import mabit.exchange.OrderUpdate;
 import mabit.marketdata.Quote;
 import mabit.marketdata.Trade;
 import mabit.oms.order.Exec;
+import mabit.oms.order.OrderUpdate;
 
 public class Event {
 
