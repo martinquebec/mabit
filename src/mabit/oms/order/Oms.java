@@ -1,52 +1,58 @@
 package mabit.oms.order;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
 
-import com.google.common.eventbus.EventBus;
-
+import mabit.dispatcher.Dispatcher;
 import mabit.dispatcher.Event.OrderEvent;
 import mabit.exchange.ExchangeUpdate;
 import mabit.exchange.ExchangeUpdate.RequestResult;
 import mabit.exchange.IExchangeInterface ;
 import mabit.time.ITimeManager;
 
-public class Oms {
+public class Oms implements ExchangeUpdate.Listener{
 	private static final Logger Log = Logger.getLogger(Oms.class);
 
 
 	final Map<Long,Order> orders;
-	final EventBus bus;
+	final Dispatcher dispatcher;
 	final ITimeManager tm;
 	IExchangeInterface exchange;
 	private static Long id=0l;
 
-	public Oms(IExchangeInterface exchange, EventBus bus, ITimeManager tm) {
+	public Oms(IExchangeInterface exchange, Dispatcher bus, ITimeManager tm) {
 		this.exchange = exchange;
-		this.bus = bus;
+		this.dispatcher = bus;
 		this.tm = tm;
 		orders = new HashMap<Long, Order>();
+		exchange.register(this);
 	}
 
 	public void sendOrder(OrderRequest requestOrder) {
 		Order order = new Order(requestOrder, id++, OrderState.PENDING_NEW);
 		exchange.send(order);
 		orders.put(order.getOrderId(), order);
-		bus.post(
-				new OrderEvent(
-						tm.getTime(),
-						new OrderUpdate(
-								order.getOrderId(),
-								"new order",
-								OrderState.PENDING_NEW,
-								null,
-								tm.getTime())));
+		postOrderEvent(order,"New Order",null);	
 	}
 	
 	public void cancelOrder(Order order) {
 		exchange.cancel(order);
+		order.setState(OrderState.PENDING_CANCEL);
+	}
+	
+	private void postOrderEvent(Order order, String message,List<Exec> execs) {
+		dispatcher.post(
+				new OrderEvent(
+						tm.getTime(),
+						new OrderUpdate(
+								order.getOrderId(),
+								message,
+								OrderState.PENDING_NEW,
+								execs,
+								tm.getTime())));		
 	}
 
 	public void onExchangeUpdate(ExchangeUpdate update) {
@@ -59,7 +65,7 @@ public class Oms {
 			} else {
 				Log.info("Received update message [\"" + update.getMessage() + " for order "  + order.toShortString() + ", update " + update.toString() );
 			}
-			bus.post(new OrderEvent(tm.getTime(),new OrderUpdate(update)));
+			dispatcher.post(new OrderEvent(tm.getTime(),new OrderUpdate(update)));
 		} else {
 			Log.error("No order found for update " + update);
 		}

@@ -8,14 +8,15 @@ import java.util.Map;
 import com.google.common.collect.LinkedListMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
-import com.google.common.eventbus.EventBus;
 
 import mabit.data.instruments.IInstrument;
 import mabit.data.marketdata.MarketDataService;
 import mabit.data.marketdata.Quote;
 import mabit.data.marketdata.Trade;
+import mabit.dispatcher.Dispatcher;
 import mabit.dispatcher.Event.QuoteEvent;
 import mabit.dispatcher.Event.TradeEvent;
+import mabit.dispatcher.EventType;
 import mabit.dispatcher.IEvent;
 import mabit.dispatcher.IEventListener;
 import mabit.exchange.ExchangeUpdate.Listener;
@@ -26,15 +27,17 @@ import mabit.oms.order.OrderState;
 import mabit.time.ITimeManager;
 
 public class ExchangeSimulator implements IExchangeInterface, IEventListener {
-	Map<Long,SimOrder> orderMap = new HashMap<>();
+	final Map<Long,SimOrder> orderMap = new HashMap<>();
 	
-	Multimap<IInstrument, SimOrder> instrumentMap = LinkedListMultimap.create();
-	MarketDataService mds;
-	List<ExchangeUpdate.Listener> updateListeners = Lists.newArrayList();
-	ITimeManager tm;
+	final Multimap<IInstrument, SimOrder> instrumentMap = LinkedListMultimap.create();
+	final MarketDataService mds;
+	final List<ExchangeUpdate.Listener> updateListeners = Lists.newArrayList();
+	final ITimeManager tm;
 	
-	public void ExchangeSimulator(EventBus bus) {
-		bus.register(this);
+	public ExchangeSimulator(Dispatcher dispatcher, ITimeManager tm, MarketDataService mds) {
+		dispatcher.register(EventType.QUOTE, this);
+		this.tm = tm;
+		this.mds = mds;
 	}
 	 
 	@Override

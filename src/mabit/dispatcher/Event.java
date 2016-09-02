@@ -24,14 +24,13 @@ public class Event {
 
 		@Override
 		public DateTime getDateTime() {
-			// TODO Auto-generated method stub
-			return null;
+			return timestamp;
 		}
 
 		@Override
 		public EventType getEventType() {
 			// TODO Auto-generated method stub
-			return null;
+			return this.eventType;
 		}
 
 

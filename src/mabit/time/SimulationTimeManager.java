@@ -8,6 +8,7 @@ import org.joda.time.DateTime;
 import mabit.dispatcher.Dispatcher;
 import mabit.dispatcher.Event;
 import mabit.dispatcher.Event.TimeEvent;
+import mabit.dispatcher.EventType;
 import mabit.dispatcher.IEvent;
 import mabit.dispatcher.IEventListener;
 
@@ -17,7 +18,12 @@ public class SimulationTimeManager implements IEventListener, ITimeManager {
 
 	public SimulationTimeManager(Dispatcher dispatcher) {
 		this.dispatcher = dispatcher;
+		dispatcher.register(EventType.ORDER, this);
+		dispatcher.register(EventType.QUOTE, this);
+		dispatcher.register(EventType.TIME, this);
+		dispatcher.register(EventType.TRADE, this);
 	}
+	
 	@Override
 	public void onEvent(IEvent event) {
 		this.now = event.getDateTime();

@@ -103,6 +103,10 @@ public class Quote {
 		return sb.toString();	
 		
 	}
+	
+	public static boolean isValid(Quote quote) {
+		return (quote != null) && quote.isValid();
+	}
 
 
 }

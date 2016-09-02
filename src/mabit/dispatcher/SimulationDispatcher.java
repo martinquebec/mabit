@@ -1,4 +1,4 @@
-package mabit.time;
+package mabit.dispatcher;
 
 import java.util.List;
 import java.util.PriorityQueue;
@@ -6,18 +6,14 @@ import java.util.Queue;
 
 import org.apache.log4j.Logger;
 
-import mabit.dispatcher.Dispatcher;
-import mabit.dispatcher.IEvent;
-
-public class SimulationManager extends Dispatcher {
-	Logger Log = Logger.getLogger(SimulationManager.class);
+public class SimulationDispatcher extends Dispatcher {
+	Logger Log = Logger.getLogger(SimulationDispatcher.class);
 	
 	Queue<IEvent> events = new PriorityQueue<IEvent>(1000000,IEvent.EVENT_COMPARATOR);
-	final Dispatcher dispatcher;
 	final String name;
 	
-	public SimulationManager(Dispatcher dispatcher, String name) {
-		this.dispatcher = dispatcher;
+	public SimulationDispatcher(String name, boolean sameThread) {
+		super(sameThread);
 		this.name = name;
 	}
 
@@ -25,7 +21,7 @@ public class SimulationManager extends Dispatcher {
 		return events.poll();				
 	}
 	
-	public void addEvents(List<IEvent> eventsToAdd) {
+	public void addEvents(List<? extends IEvent> eventsToAdd) {
 		events.addAll(eventsToAdd);
 	}
 	public void addEvent(IEvent eventToAdd) {
@@ -34,8 +30,9 @@ public class SimulationManager extends Dispatcher {
 	
 	public void consumeAllEvents() {
 		while(events.size() > 0) {
-			dispatcher.post(events.poll());
-		Log.info("Done with Simution " + name);}
+			post(events.poll());
+		}
+		Log.info("Done with Simution " + name);
 		
 		
 	}

@@ -22,21 +22,24 @@ public class QuoteFileLoader {
 	public static List<QuoteEvent> readFile(File file) throws FileNotFoundException {
 		List<QuoteEvent> quoteEvents = Lists.newArrayList();
 		Scanner scanner = new Scanner(file);
+		int lineCount = 0;
 		while(scanner.hasNextLine()) {
 			String line= scanner.nextLine();
 			QuoteEvent quoteEvent = getQuoteFromLine(line);
-			if(quoteEvent == null) {
-				Log.error("Cannot parse line: " + line);
-			} else {
-				if(!quoteEvent.getQuote().isValid()) {
-					System.out.println("---- QUOTE NOT Valid---");
-					System.out.println("\tLine:"+ line);
-					System.out.println("\t" + quoteEvent.toString());
-				}
-
+			//			if(quoteEvent == null) {
+			//				Log.error("Cannot parse line: " + line);
+			//			} else {
+			//				if(!quoteEvent.getQuote().isValid()) {
+			//					System.out.println("---- QUOTE NOT Valid---");
+			//					System.out.println("\tLine:"+ line);
+			//					System.out.println("\t" + quoteEvent.toString());
+			//				}
+			if(quoteEvent !=null && quoteEvent.getQuote().isValid() && quoteEvent.getDateTime() !=null) {
 				quoteEvents.add(quoteEvent);
 			}	
+			lineCount++;
 		}
+		Log.info("Loaded " + quoteEvents.size() + " from " + lineCount + " lines");
 		return quoteEvents;
 
 	}
