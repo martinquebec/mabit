@@ -1,11 +1,12 @@
 package mabit.dispatcher;
 
 import org.joda.time.DateTime;
+import org.joda.time.DateTimeUtils;
 
-import mabit.marketdata.Quote;
-import mabit.marketdata.Trade;
-import mabit.oms.order.Exec;
+import mabit.data.marketdata.Quote;
+import mabit.data.marketdata.Trade;
 import mabit.oms.order.OrderUpdate;
+import mabit.time.TimeUtils;
 
 public class Event {
 
@@ -37,22 +38,33 @@ public class Event {
 		public T getPayLoad() {
 			return payload;
 		}
+		
+		public String toString() {
+			return "[ " + TimeUtils.toFullDateTimeNoMillis(timestamp) + "\t" + payload.toString() + "]";
+		}
+
 	}
 
 	public static class QuoteEvent extends GenericEvent<Quote> {
 		public QuoteEvent(DateTime timestamp,Quote quote) { super(timestamp,EventType.QUOTE,quote); }
+		public Quote getQuote() { return payload; }
 	}
 
 
 	public static class TradeEvent extends GenericEvent<Trade> {
 		public TradeEvent(DateTime timestamp,Trade trade) { super(timestamp,EventType.TRADE,trade); }
+		public Trade getTrade() { return payload; }
 	}	
 
-	public static class AckEvent extends GenericEvent<OrderUpdate> {
-		public AckEvent(DateTime timestamp,OrderUpdate ack) { super(timestamp,EventType.ACKNAK,ack); }
-	}	
 
-	public static class ExecEvent extends GenericEvent<Exec> {
-		public ExecEvent(DateTime timestamp,Exec exec) { super(timestamp,EventType.EXEC,exec); }
+	public static class OrderEvent extends GenericEvent<OrderUpdate> {
+		public OrderEvent(DateTime timestamp,OrderUpdate update) { super(timestamp,EventType.ORDER,update); }
+		public OrderUpdate getOrderUpdate() { return payload; }
 	}
+	
+	public static class TimeEvent extends GenericEvent<Runnable> {
+		public TimeEvent(DateTime timestamp,Runnable runnable) { super(timestamp,EventType.TIME,runnable); }
+		public void run() { payload.run(); }
+	}
+	
 }

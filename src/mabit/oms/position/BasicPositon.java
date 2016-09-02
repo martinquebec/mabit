@@ -1,7 +1,7 @@
 package mabit.oms.position;
 
+import mabit.data.instruments.IInstrument;
 import mabit.oms.order.Exec;
-import mabit.oms.order.IInstrument;
 import mabit.oms.order.Order;
 
 public class BasicPositon {

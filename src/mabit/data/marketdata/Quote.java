@@ -1,7 +1,10 @@
-package mabit.marketdata;
+package mabit.data.marketdata;
 
 import java.util.List;
-import mabit.oms.order.IInstrument;
+
+import com.google.common.collect.Lists;
+
+import mabit.data.instruments.IInstrument;
 import mabit.oms.order.Side;
 import mabit.utils.XNumber;
 
@@ -39,6 +42,23 @@ public class Quote {
 		return side.isBuy() ? asks : bids;
 	}
 	
+	public double aPrice(int i) {
+		return asks.get(i).getPrice();
+	}
+	public double bPrice(int i) {
+		return bids.get(i).getPrice();
+	}
+	public double aQty(int i) {
+		return asks.get(i).getQty();
+	}
+	public double bQty(int i) {
+		return bids.get(i).getQty();
+	}
+	
+	public double bPrice() { return bPrice(0); }	
+	public double aPrice() { return aPrice(0); }
+	public double bQty() { return bQty(0); }
+	public double aQty() { return aQty(0); }
 	
 	public double getQtyAtMyLevel(Side side, double price) {
 		for(QuoteLine line :  getMySide(side)) {
@@ -60,6 +80,28 @@ public class Quote {
 		} else {
 			return isValid;
 		}
+	}
+	
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("[ ").append(instrument.getName()).append("\t");
+		sb.append(XNumber.round(bQty(), 0) + " @ " + XNumber.round(bPrice(),3));
+		sb.append("\t||\t");
+		sb.append(XNumber.round(aQty(), 0)+ " @ " + XNumber.round(aPrice(), 3));
+		return sb.toString();
+	}
+	
+	public String toFullBaikai() {
+		StringBuffer sb = new StringBuffer();
+		for(QuoteLine line : Lists.reverse(asks)) {
+			sb.append("\t\t").append(XNumber.round(line.getPrice(),3)).append("\t").append(XNumber.round(line.getQty(), 0)).append("\n");		
+		}
+
+		for(QuoteLine line : bids) {
+			sb.append("\t").append(XNumber.round(line.getQty(),0)).append("\t").append(XNumber.round(line.getPrice(), 3)).append("\n");		
+		}
+		return sb.toString();	
+		
 	}
 
 

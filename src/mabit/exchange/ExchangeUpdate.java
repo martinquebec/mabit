@@ -1,15 +1,17 @@
 package mabit.exchange;
 
+
 import java.util.List;
 
 import org.joda.time.DateTime;
 
+import mabit.data.instruments.IInstrument;
 import mabit.oms.order.Exec;
-import mabit.oms.order.IInstrument;
 import mabit.oms.order.OrderState;
-import mabit.oms.order.OrderUpdate.RequestResult;
 
 public class ExchangeUpdate {
+	public enum RequestResult { SUCCESS, FAILLURE }
+
 	final IInstrument instrument;
 	final Long orderId;
 	final RequestResult lastRequestResult;

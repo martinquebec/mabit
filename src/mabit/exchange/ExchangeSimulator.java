@@ -10,20 +10,19 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
 import com.google.common.eventbus.EventBus;
 
+import mabit.data.instruments.IInstrument;
+import mabit.data.marketdata.MarketDataService;
+import mabit.data.marketdata.Quote;
+import mabit.data.marketdata.Trade;
 import mabit.dispatcher.Event.QuoteEvent;
 import mabit.dispatcher.Event.TradeEvent;
 import mabit.dispatcher.IEvent;
 import mabit.dispatcher.IEventListener;
 import mabit.exchange.ExchangeUpdate.Listener;
-import mabit.marketdata.MarketDataService;
-import mabit.marketdata.Quote;
-import mabit.marketdata.Trade;
+import mabit.exchange.ExchangeUpdate.RequestResult;
 import mabit.oms.order.Exec;
-import mabit.oms.order.IInstrument;
 import mabit.oms.order.Order;
 import mabit.oms.order.OrderState;
-import mabit.oms.order.OrderUpdate;
-import mabit.oms.order.OrderUpdate.RequestResult;
 import mabit.time.ITimeManager;
 
 public class ExchangeSimulator implements IExchangeInterface, IEventListener {
@@ -48,6 +47,7 @@ public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 			
 		} else {
 			sendMessageReject(
+					order.getIntrument(),
 					order.getOrderId(), 
 					OrderState.REJECTED,
 					"No Valid Quote: " + ((quote!=null)?quote.toString():"null"));
@@ -56,6 +56,7 @@ public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 	
 	private void sendOrderUpdate(SimOrder simo, String msg, Exec exec) {
 		ExchangeUpdate update= new ExchangeUpdate(
+						simo.getOrder().getIntrument(),
 						simo.getOrder().getOrderId(),
 						RequestResult.SUCCESS,
 						simo.getOrdStatus(),
@@ -68,8 +69,9 @@ public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 
 	}
 		
-	private void sendMessageReject(Long orderId, OrderState orderState, String msg) {
+	private void sendMessageReject(IInstrument instrument, Long orderId, OrderState orderState, String msg) {
 		ExchangeUpdate update = new ExchangeUpdate(
+				instrument,		
 				orderId,
 				RequestResult.FAILLURE,
 				orderState,
@@ -89,7 +91,7 @@ public class ExchangeSimulator implements IExchangeInterface, IEventListener {
 		if(simo==null) {
 			//TODO handle error
 		} else if(simo.getOrdStatus().isTerminal()){
-			sendMessageReject(order.getOrderId(),simo.getOrdStatus(),"Order already terminal");
+			sendMessageReject(order.getIntrument(),order.getOrderId(),simo.getOrdStatus(),"Order already terminal");
 			// TODO send error message
 		} else {
 			simo.setOrderStatus(OrderState.REJECTED);

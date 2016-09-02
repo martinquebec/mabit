@@ -1,10 +1,9 @@
 package mabit.exchange;
 
-import mabit.marketdata.Quote;
-import mabit.marketdata.Trade;
+import mabit.data.marketdata.Quote;
+import mabit.data.marketdata.Trade;
 import mabit.oms.order.Exec;
 import mabit.oms.order.Order;
-import mabit.oms.order.OrderRequest;
 import mabit.oms.order.OrderState;
 import mabit.oms.order.QueueTracker;
 import mabit.oms.order.Side;

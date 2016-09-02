@@ -1,9 +1,7 @@
 package mabit.oms.order;
 
-import mabit.marketdata.Quote;
-import mabit.marketdata.QuoteLine;
-import mabit.marketdata.Trade;
-import mabit.utils.XNumber;
+import mabit.data.marketdata.Quote;
+import mabit.data.marketdata.Trade;
 
 public class QueueTracker {
 	final double price;

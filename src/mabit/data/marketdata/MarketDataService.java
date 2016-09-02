@@ -1,6 +1,6 @@
-package mabit.marketdata;
+package mabit.data.marketdata;
 
-import mabit.oms.order.IInstrument;
+import mabit.data.instruments.IInstrument;
 
 public class MarketDataService {
 	public Quote getLastQuote(IInstrument instrument) {

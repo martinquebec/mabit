@@ -17,8 +17,7 @@ public class Dispatcher {
 		exec = new ThreadPoolExecutor(1, 1, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
 	}
 	
-	public void register(EventType type, IEventListener listener,int priority) {
-		//TODO: priority
+	public void register(EventType type, IEventListener listener) {
 		List<IEventListener> listeners = listenersByTypes.get(type);
 		if(listeners==null) {
 			listeners = new LinkedList<IEventListener>();

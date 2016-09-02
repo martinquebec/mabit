@@ -22,6 +22,10 @@ public class XNumber {
 		return isEqual(d1, d2,TOLERANCE);	
 
 	}	
+	
+	public static double round(double x, int precision) {
+		return Math.round(x * Math.pow(10,precision)) / Math.pow(10, precision);
+	}
 
 	public static boolean isGreaterOrEqual(double d1, double d2, double tolerance) {
 		return d1 +tolerance > d2;	
