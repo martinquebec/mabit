@@ -1,0 +1,330 @@
+[2016-09-03 23:58:48,609]ERROR  8198[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1334b9dc
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5002dc29
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4a0e955
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@57dbd55d
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@46ad8fb
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@690e281f
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@27f61670
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6c4647d2
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@438c5678
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6f74e416
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6eecd8ca
+[2016-09-03 23:58:48,610]ERROR  8199[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5e87247
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@512257ea
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@795970b7
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@64ad2ba9
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@430915ce
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7490aa87
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@36ee9dfc
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5795a136
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3a7cfd1d
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@610480b5
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@38820ce9
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@76d84f07
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@67ede99c
+[2016-09-03 23:58:48,611]ERROR  8200[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3321734
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@46f87131
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@54729876
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@11947a72
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@437d871b
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@62fa898b
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2e8edc36
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@31d8ff7a
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4e1e9826
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7b165203
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1b4d1b22
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@452946df
+[2016-09-03 23:58:48,612]ERROR  8201[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5440999e
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6356da2e
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2ca01365
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@265d8b1d
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@11653daa
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@55ecfa1c
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4150406a
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@700216be
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4fda4c7e
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@ce52252
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4da3f4e7
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@17487672
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2a2f3ec9
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1dd7b6cb
+[2016-09-03 23:58:48,613]ERROR  8202[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@795c28e8
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@557aff83
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@53a1b32f
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7f40fae0
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7c97fff8
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5dc4089d
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@34f661d3
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@37d7dda6
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2e2c9573
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@380e8b10
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@47ae4629
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5001d402
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@76b45e28
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6844b62f
+[2016-09-03 23:58:48,614]ERROR  8203[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@9c5f9f0
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2c87e895
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@724cd2b5
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7e46400f
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3be7ff76
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2cd3f1c0
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5556f4af
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4a52e80c
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@cc46555
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4a74933f
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@239bb729
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@236a23f
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@24415283
+[2016-09-03 23:58:48,615]ERROR  8204[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@56ee0cfd
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4e1e0cd7
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7a30257c
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@8a77298
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5561cbe0
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5d7aed0e
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@203cc120
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@176c15d8
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@632fce34
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2d98c4cd
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@74300dba
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2bb800b5
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2f94abcc
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6c51d2c8
+[2016-09-03 23:58:48,616]ERROR  8205[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5418be12
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@f3a3d22
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@526d278
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4d0cb2c5
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@128f0f1e
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@23d06658
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@254a0ce8
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1dc9ad5a
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1f5e7fe1
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2d349056
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1b3d68b6
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@558c3671
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5780bed1
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2225eb09
+[2016-09-03 23:58:48,617]ERROR  8206[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@17bc17bd
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7f475bd5
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@f51c595
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4ad1b8d
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4411aea2
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@627b59c6
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3a4d2ad
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7a4c28d
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2034ceab
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@76351c98
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@77fd4659
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5ec357e4
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@66f4c5cb
+[2016-09-03 23:58:48,618]ERROR  8207[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@403749bc
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4f1f313f
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4bfbc57a
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@59c618a9
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2593a9a4
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@11971091
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2a7235ef
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@11444634
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1b03b0c2
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@66a44fa4
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6968e9d7
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6e620522
+[2016-09-03 23:58:48,619]ERROR  8208[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@71ba1457
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@58929cb3
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@351492b8
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@61223108
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@dc4720e
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1ad833b4
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@d5ce7bb
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2b919db6
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5784649f
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7a765284
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4a04e9d4
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3773cfeb
+[2016-09-03 23:58:48,620]ERROR  8209[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@622ca14e
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7e621289
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2b834e4f
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2e2fdb8c
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@26164792
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@d036aad
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3a58cf8f
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@70ad20c1
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@13b46900
+[2016-09-03 23:58:48,621]ERROR  8210[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@723231e
+[2016-09-03 23:58:48,622]ERROR  8211[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3f353ae6
+[2016-09-03 23:58:48,622]ERROR  8211[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@328b43f6
+[2016-09-03 23:58:48,622]ERROR  8211[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6637971d
+[2016-09-03 23:58:48,622]ERROR  8211[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@57c97ec8
+[2016-09-03 23:58:48,622]ERROR  8211[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@66bbf61e
+[2016-09-03 23:58:48,622]ERROR  8211[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6d4be77f
+[2016-09-03 23:58:48,622]ERROR  8211[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@18548b0a
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1c0d0745
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@35dfd7f4
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@14696841
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2e545729
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@42585d45
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@51394772
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2c7490b1
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2f5a3f3b
+[2016-09-03 23:58:48,623]ERROR  8212[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@396b1958
+[2016-09-03 23:58:48,624]ERROR  8213[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6c3e27af
+[2016-09-03 23:58:48,624]ERROR  8213[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2b7c81d3
+[2016-09-03 23:58:48,624]ERROR  8213[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3f012fa9
+[2016-09-03 23:58:48,624]ERROR  8213[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5d2db50c
+[2016-09-03 23:58:48,624]ERROR  8213[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3219b550
+[2016-09-03 23:58:48,624]ERROR  8213[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@164c7fed
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@703a47b5
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6a35ab2e
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@715e93d3
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@31607a22
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3c591552
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@26a1abb8
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@d2886b6
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@21c9f2a5
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6e4e53f4
+[2016-09-03 23:58:48,625]ERROR  8214[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@79ba394a
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@11fdbf0f
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6b91d723
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1eb4bd92
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@768eafb7
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4431e54b
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4e5ac029
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6e4b3e56
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6a57e01d
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@245b37f2
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@22f144b1
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@64945559
+[2016-09-03 23:58:48,626]ERROR  8215[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@23de4cdd
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1473b8e3
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5c8f5e99
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5f38ea4c
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@46a6dfd4
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@278e9ffa
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6e12bc3d
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@61d6c3b7
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@506c1549
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@124b0265
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2c6d1120
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1e805941
+[2016-09-03 23:58:48,627]ERROR  8216[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1ab65374
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@43bb0f92
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@af23f5
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2cd28c84
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2a8d91af
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@53df0cd6
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@632e4217
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2bd2edaf
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5a0afdef
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6188d1e8
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@e249b2c
+[2016-09-03 23:58:48,628]ERROR  8217[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2b0e6d8f
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6528f1fa
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@46941601
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@542861e1
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5f3bf818
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@51f0c6d1
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@262cce28
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@333b82fe
+[2016-09-03 23:58:48,629]ERROR  8218[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6d2142d3
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@36cba188
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@18c8cb7d
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@6dd31bab
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@d7479ae
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@7676963
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@34c8140f
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@1b81fb54
+[2016-09-03 23:58:48,630]ERROR  8219[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@81a3c9b
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@367baf67
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@222c7639
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@4e2d47c1
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2fc3a9ac
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@18050959
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@380bbbc5
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@26fada87
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@76271f47
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@3af6c942
+[2016-09-03 23:58:48,631]ERROR  8220[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5d80293e
+[2016-09-03 23:58:48,632]ERROR  8221[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5b711a93
+[2016-09-03 23:58:48,632]ERROR  8221[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@af3b0db
+[2016-09-03 23:58:48,632]ERROR  8221[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@5b70749
+[2016-09-03 23:58:48,632]ERROR  8221[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@71878d5a
+[2016-09-03 23:58:48,632]ERROR  8221[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@137d7b1f
+[2016-09-03 23:58:48,632]ERROR  8221[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@14137240
+[2016-09-03 23:58:48,632]ERROR  8221[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@2f26cb4d
+[2016-09-03 23:58:48,633]ERROR  8222[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@67179928
+[2016-09-03 23:58:48,633]ERROR  8222[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@76b88266
+[2016-09-03 23:58:48,633]ERROR  8222[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@ebf1fd1
+[2016-09-03 23:59:12,184] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-03 23:59:12,202] INFO    18[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-03 23:59:12,208] INFO    24[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-03 23:59:14,442] INFO  2258[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-03 23:59:14,474]ERROR  2290[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:70) - No order found for update mabit.exchange.ExchangeUpdate@490d6c15
+[2016-09-03 23:59:14,558] INFO  2374[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 00:00:06,058] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 00:00:06,074] INFO    16[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 00:00:06,074] INFO    16[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 00:00:07,962] INFO  1904[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 00:03:04,555]ERROR178497[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:69) - No order found for update mabit.exchange.ExchangeUpdate@534df152
+[2016-09-04 00:03:16,769] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 00:03:16,778] INFO     9[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 00:03:16,784] INFO    15[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 00:03:18,885] INFO  2116[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 00:03:18,930] INFO  2161[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@490d6c15
+[2016-09-04 00:03:19,051] INFO  2282[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 00:06:07,115] INFO     1[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 00:06:07,127] INFO    13[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 00:06:07,135] INFO    21[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 00:06:09,221] INFO  2107[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 00:06:09,255] INFO  2141[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@490d6c15
+[2016-09-04 00:06:09,332] INFO  2218[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 00:06:32,298] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 00:06:32,310] INFO    12[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 00:06:32,315] INFO    17[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 00:06:34,630] INFO  2332[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 00:06:34,670] INFO  2372[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@490d6c15
+[2016-09-04 00:06:34,767] INFO  2469[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 01:19:10,119] INFO     1[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 01:19:10,133] INFO    15[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 01:19:10,139] INFO    21[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 01:19:13,362] INFO  3244[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 01:19:13,413] INFO  3295[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@490d6c15
+[2016-09-04 01:19:13,512] INFO  3394[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 12:10:25,617] INFO     1[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 12:10:25,632] INFO    16[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 12:10:25,640] INFO    24[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 12:10:27,994] INFO  2378[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 12:10:28,041] INFO  2425[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@449b2d27
+[2016-09-04 12:10:28,465] INFO  2849[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 12:15:51,135] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 12:15:51,157] INFO    22[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 12:15:51,162] INFO    27[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 12:15:53,388] INFO  2253[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 12:15:53,446] INFO  2311[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@27082746
+[2016-09-04 12:15:53,968] INFO  2833[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 12:20:03,740] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 12:20:03,751] INFO    11[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 12:20:03,757] INFO    17[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 12:20:05,913] INFO  2173[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 12:20:05,973] INFO  2233[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@27082746
+[2016-09-04 12:20:06,341] INFO  2601[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 12:21:42,322] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 12:21:42,335] INFO    13[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 12:21:42,336] INFO    14[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 12:21:44,807] INFO  2485[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 12:23:21,916] INFO 99594[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@176d53b2
+[2016-09-04 12:27:33,110] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 12:27:33,143] INFO    33[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 12:27:33,148] INFO    38[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 12:27:35,646] INFO  2536[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 12:27:35,684] INFO  2574[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@5a42bbf4
+[2016-09-04 12:27:36,000] INFO  2890[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 16:01:01,548] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 16:01:01,558] INFO    10[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 16:01:01,563] INFO    15[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 16:01:03,828] INFO  2280[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 16:01:03,873] INFO  2325[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@5a42bbf4
+[2016-09-04 16:01:04,205] INFO  2657[main] - mabit.dispatcher.SimulationDispatcher.consumeAllEvents(SimulationDispatcher.java:35) - Done with Simution MySimul
+[2016-09-04 16:02:40,043] INFO     0[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[0, "Sunderland", 56344]
+[2016-09-04 16:02:40,057] INFO    14[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[1, "ManCity", 47999]
+[2016-09-04 16:02:40,058] INFO    15[main] - mabit.data.instruments.InstrumentStore.createInstrument(InstrumentStore.java:44) - Created instrument[2, "TheDraw", 58805]
+[2016-09-04 16:02:42,465] INFO  2422[main] - mabit.data.marketdata.QuoteFileLoader.readFile(QuoteFileLoader.java:42) - Loaded 63006 from 63970 lines
+[2016-09-04 16:03:57,673] INFO 77630[main] - mabit.oms.order.Oms.onExchangeUpdate(Oms.java:65) - Received update message ["New Order for order [ id=0, instr="Sunderland", qty=1.0, price=0.1388888888888889, side=BUY, execqty=0.0, state=ON_MARKET ], update mabit.exchange.ExchangeUpdate@6279cee3
