@@ -1,11 +1,12 @@
 package mabit.dispatcher;
 
-import org.joda.time.DateTime;
-
 import mabit.data.marketdata.Quote;
 import mabit.data.marketdata.Trade;
 import mabit.oms.order.OrderUpdate;
+import mabit.oms.position.IPosition;
 import mabit.time.TimeUtils;
+import org.apache.log4j.spi.LoggingEvent;
+import org.joda.time.DateTime;
 
 public class Event {
 
@@ -59,10 +60,19 @@ public class Event {
 		public OrderEvent(DateTime timestamp,OrderUpdate update) { super(timestamp,EventType.ORDER,update); }
 		public OrderUpdate getOrderUpdate() { return payload; }
 	}
-	
+
 	public static class TimeEvent extends GenericEvent<Runnable> {
 		public TimeEvent(DateTime timestamp,Runnable runnable) { super(timestamp,EventType.TIME,runnable); }
 		public void run() { payload.run(); }
 	}
-	
+
+	public static class LogEvent extends GenericEvent<LoggingEvent> {
+		public LogEvent(DateTime timestamp,LoggingEvent logEvent) { super(timestamp,EventType.LOG, logEvent); }
+		public LoggingEvent getLog4jEvent() {return payload; }
+	}
+	public static class PositionEvent extends GenericEvent<IPosition> {
+		public PositionEvent(DateTime timestamp,IPosition pos) { super(timestamp,EventType.POSITION, pos); }
+		public IPosition getPostion() {return payload; }
+	}
+
 }

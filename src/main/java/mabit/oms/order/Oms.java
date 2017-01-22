@@ -1,32 +1,39 @@
 package mabit.oms.order;
 
-import mabit.dispatcher.Dispatcher;
 import mabit.dispatcher.Event.OrderEvent;
+import mabit.dispatcher.IDispatcher;
+import mabit.dispatcher.ServiceProvider;
 import mabit.exchange.ExchangeUpdate;
 import mabit.exchange.ExchangeUpdate.RequestResult;
 import mabit.exchange.IExchangeInterface;
 import mabit.time.ITimeManager;
 import org.apache.log4j.Logger;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Oms implements ExchangeUpdate.Listener{
 	private static final Logger Log = Logger.getLogger(Oms.class);
 
 
 	private final Map<Long,Order> orders;
-	private final Dispatcher dispatcher;
+	private final IDispatcher dispatcher;
 	private final ITimeManager tm;
 	private final IExchangeInterface exchange;
 	private static Long id= 0L;
 
-	public Oms(IExchangeInterface exchange, Dispatcher bus, ITimeManager tm) {
+	public Oms() {
+		this(
+				ServiceProvider.INSTANCE.getService(IExchangeInterface.class),
+				ServiceProvider.INSTANCE.getService(IDispatcher.class),
+				ServiceProvider.INSTANCE.getService(ITimeManager.class));
+	}
+
+	public Oms(IExchangeInterface exchange, IDispatcher dispatcher, ITimeManager tm) {
 		this.exchange = exchange;
-		this.dispatcher = bus;
+		this.dispatcher = dispatcher;
 		this.tm = tm;
-		orders = new HashMap<>();
+		orders = new ConcurrentHashMap<>();
 		exchange.register(this);
 	}
 
@@ -34,7 +41,7 @@ public class Oms implements ExchangeUpdate.Listener{
 		Order order = new Order(requestOrder, id++, OrderState.PENDING_NEW);
 		orders.put(order.getOrderId(), order);
 		exchange.send(order);
-		postOrderEvent(order,"New Order",null);	
+		postOrderEvent(order,"New Order");
 	}
 	
 	public void cancelOrder(Order order) {
@@ -42,15 +49,12 @@ public class Oms implements ExchangeUpdate.Listener{
 		order.setState(OrderState.PENDING_CANCEL);
 	}
 	
-	private void postOrderEvent(Order order, String message,List<Exec> execs) {
-		dispatcher.post(
+	private void postOrderEvent(Order order, String message) {
+		dispatcher.put(
 				new OrderEvent(
 						tm.getTime(),
-						new OrderUpdate(
-								order.getOrderId(),
+						new OrderUpdate(order.copy(),
 								message,
-								OrderState.PENDING_NEW,
-								execs,
 								tm.getTime())));		
 	}
 
@@ -64,7 +68,7 @@ public class Oms implements ExchangeUpdate.Listener{
 			} else {
 				Log.info("Received update message [\"" + update.getMessage() + " for order "  + order.toShortString() + ", update " + update.toString() );
 			}
-			dispatcher.post(new OrderEvent(tm.getTime(),new OrderUpdate(update)));
+			dispatcher.put(new OrderEvent(tm.getTime(),new OrderUpdate(order.copy(),update.getMessage(),tm.getTime())));
 		} else {
 			Log.error("No order found for update " + update);
 		}

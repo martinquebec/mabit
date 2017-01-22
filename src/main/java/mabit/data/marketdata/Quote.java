@@ -3,7 +3,7 @@ package mabit.data.marketdata;
 import com.google.common.collect.Lists;
 import mabit.data.instruments.IInstrument;
 import mabit.oms.order.Side;
-import mabit.utils.XNumber;
+import mabit.util.XNumber;
 
 import java.util.List;
 

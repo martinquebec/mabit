@@ -1,16 +1,16 @@
 package mabit.dispatcher;
 
-import java.util.Comparator;
-
 import org.joda.time.DateTime;
 
+import java.util.Comparator;
+
 public interface IEvent {
-	public static Comparator<IEvent> EVENT_COMPARATOR = new IEventComparator(); 
+	Comparator<IEvent> EVENT_COMPARATOR = new IEventComparator();
 	
 	DateTime getDateTime();
 	EventType getEventType();
 	
-	public static class IEventComparator implements Comparator<IEvent> {
+	class IEventComparator implements Comparator<IEvent> {
 		@Override
 		public int compare(IEvent o1, IEvent o2) {
 			

@@ -1,18 +1,19 @@
 package mabit.exchange;
 
 
-import java.util.List;
-
-import org.joda.time.DateTime;
-
 import mabit.data.instruments.IInstrument;
 import mabit.oms.order.Exec;
 import mabit.oms.order.OrderState;
+import mabit.oms.order.Side;
+import org.joda.time.DateTime;
+
+import java.util.List;
 
 public class ExchangeUpdate {
 	public enum RequestResult { SUCCESS, FAILLURE }
 
 	private final IInstrument instrument;
+	private final Side side;
 	private final Long orderId;
 	private final RequestResult lastRequestResult;
 	private final OrderState orderState;
@@ -20,9 +21,10 @@ public class ExchangeUpdate {
 	private final String message;
 	private final DateTime timestamp;
 	
-	public ExchangeUpdate(IInstrument instrument, Long orderId, RequestResult lastRequestResult, OrderState orderState, List<Exec> execs,
+	public ExchangeUpdate(IInstrument instrument, Side side, Long orderId, RequestResult lastRequestResult, OrderState orderState, List<Exec> execs,
 			String message, DateTime timestamp) {
 		this.instrument = instrument;
+		this.side = side;
 		this.orderId = orderId;
 		this.lastRequestResult = lastRequestResult;
 		this.orderState = orderState;
@@ -59,10 +61,11 @@ public class ExchangeUpdate {
 		return timestamp;
 	}
 
+	public Side getSide() { return side; }
 
 
-	public static interface Listener {
-		public void onExchangeUpdate(ExchangeUpdate update);
+	public interface Listener {
+		void onExchangeUpdate(ExchangeUpdate update);
 		
 	}
 	

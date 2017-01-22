@@ -1,6 +1,6 @@
 package mabit.strategy.base;
 
-import mabit.data.marketdata.MarketDataService;
+import mabit.data.marketdata.IMarketDataService;
 import mabit.data.marketdata.Quote;
 import mabit.dispatcher.*;
 import mabit.oms.exchange.ExchangeName;
@@ -8,19 +8,28 @@ import mabit.oms.order.Oms;
 import mabit.oms.order.OrderRequest;
 import mabit.oms.order.Side;
 import mabit.time.ITimeManager;
+import org.apache.log4j.Logger;
 
 import static mabit.dispatcher.EventType.ORDER;
 
-public class TestStrategy implements IEventListener {
+public class TestStrategy implements IStrategyInterface,IEventListener {
+	private static Logger Log = Logger.getLogger(TestStrategy.class);
 	private final Oms oms;
 	private final ITimeManager tm;
-	private final Dispatcher dispatcher;
+	private final IDispatcher dispatcher;
 	private final String name;
-	private final MarketDataService mds;
+	private final IMarketDataService mds;
 
 	private boolean orderSent = false;
-	
-	public TestStrategy(Oms oms, ITimeManager tm, Dispatcher dispatcher, MarketDataService mds, String name) {
+	public TestStrategy() {
+		this(
+				ServiceProvider.INSTANCE.getService(Oms.class),
+				ServiceProvider.INSTANCE.getService(ITimeManager.class),
+				ServiceProvider.INSTANCE.getService(IDispatcher.class),
+				ServiceProvider.INSTANCE.getService(IMarketDataService.class),
+				"Test Strategy");
+	}
+	public TestStrategy(Oms oms, ITimeManager tm, IDispatcher dispatcher, IMarketDataService mds, String name) {
 		super();
 		this.oms = oms;
 		this.tm = tm;
@@ -60,6 +69,7 @@ public class TestStrategy implements IEventListener {
 							1.0,
 							sellPrice);
 					oms.sendOrder(buyRequest);
+					Log.info("Sending BUY order" + buyRequest.toString());
 				}
 				break;
 			case ORDER:

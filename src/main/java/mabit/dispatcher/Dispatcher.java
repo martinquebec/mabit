@@ -9,7 +9,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-public class Dispatcher {
+abstract public class Dispatcher implements  IDispatcher {
 	private final Map<EventType,List<IEventListener>> listenersByTypes;
 	private final ExecutorService exec;
 		
@@ -36,7 +36,7 @@ public class Dispatcher {
 		}
 	}
 	
-	public void post(IEvent event) {
+	protected void postOne(IEvent event) {
 		//TODO change to use lambda
 		List<IEventListener> listeners = listenersByTypes.get(event.getEventType());
 		if(listeners!=null && listeners.size() > 0) {
@@ -50,4 +50,10 @@ public class Dispatcher {
 	
 		}
 	}
+
+	@Override
+	public void changeState(State state, String message) {
+
+	}
 }
+

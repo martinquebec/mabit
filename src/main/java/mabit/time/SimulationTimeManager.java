@@ -1,21 +1,20 @@
 package mabit.time;
 
+import mabit.dispatcher.*;
+import mabit.dispatcher.Event.TimeEvent;
+import org.joda.time.DateTime;
+
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-import org.joda.time.DateTime;
-
-import mabit.dispatcher.Dispatcher;
-import mabit.dispatcher.Event.TimeEvent;
-import mabit.dispatcher.EventType;
-import mabit.dispatcher.IEvent;
-import mabit.dispatcher.IEventListener;
-
 public class SimulationTimeManager implements IEventListener, ITimeManager {
 	private DateTime now;
-	private final Dispatcher dispatcher;
+	private final IDispatcher dispatcher;
 
-	public SimulationTimeManager(Dispatcher dispatcher) {
+	public SimulationTimeManager() {
+		this(ServiceProvider.INSTANCE.getService(IDispatcher.class));
+	}
+	public SimulationTimeManager(IDispatcher dispatcher) {
 		this.dispatcher = dispatcher;
 		dispatcher.register(EventType.ORDER, this);
 		dispatcher.register(EventType.QUOTE, this);
@@ -43,7 +42,7 @@ public class SimulationTimeManager implements IEventListener, ITimeManager {
 		//TODO: handle scheduled Future
 		DateTime scheduleTime = now.plusMillis((int)unit.toMillis(delay));
 		TimeEvent event = new TimeEvent(scheduleTime,runnable);
-		dispatcher.post(event);
+		dispatcher.put(event);
 		return null;
 	}
 

@@ -2,7 +2,7 @@ package mabit.dispatcher;
 
 public interface IEventListener {
 
-	public static enum Priority {
+	enum Priority {
 		TOP(0),
 		HIGH(1),
 		NORMAL(2),
@@ -14,6 +14,6 @@ public interface IEventListener {
 		public int getRank() {return rank; }		
 	}
 	
-	public void onEvent(IEvent event);
+	void onEvent(IEvent event);
 	Priority getPriority();
 }

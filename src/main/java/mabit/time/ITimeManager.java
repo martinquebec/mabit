@@ -1,18 +1,18 @@
 package mabit.time;
 
+import org.joda.time.DateTime;
+
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
-import org.joda.time.DateTime;
-
 public interface ITimeManager {
 
-	public DateTime getTime();
+	DateTime getTime();
 	
-	public ScheduledFuture<?> schedule(Runnable runnable, long delay, TimeUnit unit);
+	ScheduledFuture<?> schedule(Runnable runnable, long delay, TimeUnit unit);
 	
-	public ScheduledFuture<?> scheduleAtFixedRate(Runnable runnable, 
-			long initialDelay,
-            long period,
-            TimeUnit unit);
+	ScheduledFuture<?> scheduleAtFixedRate(Runnable runnable,
+                                           long initialDelay,
+                                           long period,
+                                           TimeUnit unit);
 }

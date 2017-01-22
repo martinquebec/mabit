@@ -12,7 +12,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import mabit.utils.XNumber;
+import mabit.util.XNumber;
 
 class BitCoinCharts {
 	private final static String URL = "http://bitcoincharts.com/markets/";

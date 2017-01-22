@@ -4,7 +4,7 @@ import mabit.data.instruments.IInstrument;
 import mabit.oms.order.Exec;
 import mabit.oms.order.Order;
 
-class BasicPositon {
+class BasicPositon implements IPositionManager, IPosition {
 	private final IInstrument instrument;
 	private final double initialQty;
 	private double buyQty;
@@ -29,16 +29,18 @@ class BasicPositon {
 	}
 	
 	double getDelta() { return getQty() * last; }	
-	
-	public void exec(Exec exec) {
+
+	@Override
+	public void addExec(Exec exec) {
 		addPriceQty(exec.getOrder().getSide().isBuy(), exec.getSgndQty(),exec.getPrice());
 		addPendingQty(exec.getOrder().getSide().isBuy(), -1 * exec.getSgndQty());
 	}
-	
+	@Override
 	public void newOrder(Order order) {
 		addPendingQty(order.getSide().isBuy(), order.getRequest().getQty());
 	}
-	
+
+	@Override
 	public void cancelOrder(Order order) {
 		addPendingQty(order.getSide().isBuy(), -1 * order.getPendingQty());		
 	}
@@ -63,4 +65,43 @@ class BasicPositon {
 		}		
 	}
 
+	public IInstrument getInstrument() {
+		return instrument;
+	}
+
+	public double getInitialQty() {
+		return initialQty;
+	}
+
+	public double getBuyQty() {
+		return buyQty;
+	}
+
+	public double getBuyPrice() {
+		return buyPrice;
+	}
+
+	public double getSellQty() {
+		return sellQty;
+	}
+
+	public double getSellPrice() {
+		return sellPrice;
+	}
+
+	public double getPendingBuyQty() {
+		return pendingBuyQty;
+	}
+
+	public double getPendingSellQty() {
+		return pendingSellQty;
+	}
+
+	public double getLast() {
+		return last;
+	}
+
+	public double getPrevPrice() {
+		return prevPrice;
+	}
 }

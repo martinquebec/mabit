@@ -1,4 +1,4 @@
-package mabit.utils;
+package mabit.util;
 
 public class XNumber {
 	private static final double TOLERANCE = 10e-10;

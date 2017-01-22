@@ -1,11 +1,10 @@
 package mabit.oms.order;
 
-import java.util.List;
-
 import com.google.common.collect.Lists;
-
 import mabit.data.instruments.IInstrument;
 import mabit.oms.exchange.ExchangeName;
+
+import java.util.List;
 
 public class Order {
 	private final Long orderId;
@@ -40,7 +39,7 @@ public class Order {
 		return orderId;
 	}
 
-	private OrderState getState() {
+	public OrderState getState() {
 		return state;
 	}
 
@@ -82,6 +81,13 @@ public class Order {
 	}
 	public double getPrice() {
 		return request.getPrice();
+	}
+
+	public Order copy() {
+		Order copy = new Order(getRequest(),getOrderId(),getState());
+		copy.execPrice = this.execPrice;
+		copy.execQty = this.execQty;
+		return copy;
 	}
 	
 	public String toShortString() {

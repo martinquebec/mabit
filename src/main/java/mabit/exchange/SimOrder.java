@@ -7,7 +7,7 @@ import mabit.oms.order.Order;
 import mabit.oms.order.OrderState;
 import mabit.oms.order.QueueTracker;
 import mabit.oms.order.Side;
-import mabit.utils.XNumber;
+import mabit.util.XNumber;
 
 class SimOrder {
 

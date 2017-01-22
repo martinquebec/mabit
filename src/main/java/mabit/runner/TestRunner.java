@@ -1,9 +1,5 @@
 package mabit.runner;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.List;
-
 import mabit.data.marketdata.MarketDataService;
 import mabit.data.marketdata.QuoteFileLoader;
 import mabit.dispatcher.Event.QuoteEvent;
@@ -13,6 +9,10 @@ import mabit.oms.order.Oms;
 import mabit.strategy.base.TestStrategy;
 import mabit.time.ITimeManager;
 import mabit.time.SimulationTimeManager;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.List;
 
 class TestRunner {
 	public static void main(String[] s) {
@@ -30,8 +30,10 @@ class TestRunner {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	//	new ThreadPoolExecutor(1, 1, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>()).execute(() ->Application.launch(example.class,s));
+	//	Application.launch(example.class,s);
 		dispatcher.consumeAllEvents();
 		System.out.println("Done");
-		
+
 	}
 }

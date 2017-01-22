@@ -1,20 +1,20 @@
 package mabit.data.marketdata;
 
+import com.google.common.collect.Maps;
+import mabit.data.instruments.IInstrument;
+import mabit.dispatcher.*;
+import mabit.dispatcher.Event.QuoteEvent;
+
 import java.util.Map;
 
-import com.google.common.collect.Maps;
-
-import mabit.data.instruments.IInstrument;
-import mabit.dispatcher.Dispatcher;
-import mabit.dispatcher.Event.QuoteEvent;
-import mabit.dispatcher.EventType;
-import mabit.dispatcher.IEvent;
-import mabit.dispatcher.IEventListener;
-
-public class MarketDataService implements IEventListener {
+public class MarketDataService implements IMarketDataService,IEventListener {
 	private final Map<IInstrument, Quote> cache = Maps.newIdentityHashMap();
-	
-	public MarketDataService(Dispatcher dispatcher) {
+
+	public MarketDataService() {
+		this(ServiceProvider.INSTANCE.getService(IDispatcher.class));
+	}
+
+	public MarketDataService(IDispatcher dispatcher) {
 		dispatcher.register(EventType.QUOTE, this);
 	}
 	
